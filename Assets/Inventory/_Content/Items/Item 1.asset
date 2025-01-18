@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a26ffe4b4d11c814f9b504864622f94d, type: 3}
+  m_Name: Item 1
+  m_EditorClassIdentifier: 
+  itemName: Green crystal
+  icon: {fileID: 21300000, guid: 82960a57205448f4e865a5c1f7911b03, type: 3}
+  tags:
+  - {fileID: 11400000, guid: 5813007f0daef7b428dfd584952b524a, type: 2}
+  description: This is a crystal and it's green.

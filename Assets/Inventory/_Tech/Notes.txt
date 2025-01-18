@@ -1,0 +1,99 @@
+NOMENCLATURE
+- VOC : Display / Hide
+- Hierarchy : Panel / Holder / Items
+
+VOCABULAIRE
+- Item : element of an inventory (weapon, fruit, pile of wood, etc.)
+- Slot : UI element shows an item
+- Container : contains items
+- Displayer : displays container's items on its slots
+
+INVENTAIRE DE BASE
+
+Contenant
+---------
+
+- Limité à certains types
+
+Affichage
+---------
+
+- Cliquer sur le backgound pour désafficher
+- Scroll bar
+
+Stack
+-----
+
+- Faire fonctionner avec l'inventaire
+- Limite
+- Afficher ou non la quantité
+- Stack automatique (enable / disable)
+
+Transfert
+---------
+
+- interactible on / off
+- Tous d'un type
+- Drag and drop (avec un slot amovible et retour si pas de destination)
+
+Tri
+---
+
+- Tri auto (option)
+
+SYSTEMES
+--------
+
+- Système de raretés
+- Coffre aléatoire
+- Système de craft
+
+EQUIPEMENT D'UN PERSO
+---------------------
+
+- Condition
+- Event si rempli
+- Montrer sur le personnage
+- Highlight un emplacement d'équipement si on sélectionne un type qui fit (ex : highlight l'emplacement du casque si on sélectionne un casque)
+
+TOOLTIP
+-------
+- En avoir un
+
+==================================================================================
+
+DONE
+
+Affichage
+- Afficher / Désafficher selon un raccourci
+- Appuyer pour visualiser
+- Afficher les items
+- Afficher les emplacements vides
+- Afficher deux coffres en parallèle
+- Inventory name
+- Bouton exit
+
+Contenant
+- Ajouter / enlever un objet
+- Ajouter / enlever X objets
+- Retirer tous les objets d'un type
+- Retirer les objets excedentaires à la capacité
+- Capacité d'inventaire
+- Get tous les items d'un type
+
+Slot
+- Hover
+
+Tri
+- Selon un critère
+
+Item
+- Tags
+
+Transfert
+- Raccourci (double clic)
+- Tous d'un coup (par les premiers / dernier items)
+
+Manager
+- raccourcis display inventaire
+- raccourci display 2 inventaires
