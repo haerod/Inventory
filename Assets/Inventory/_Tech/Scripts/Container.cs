@@ -136,7 +136,15 @@ namespace Inventory
 
             OnContentModified.Invoke();
         }
+        public void OrderItemByRarity()
+        {
+            items = items
+                .OrderBy(i => i.GetRarity().GetLevelOfRarity())
+                .ThenByDescending(i => i.GetName())
+                .ToList();
 
+            OnContentModified.Invoke();
+        }
         // ITEM TAGS
         // =========
 

@@ -96,7 +96,7 @@ namespace Inventory
             Destroy(gameObject);
         }
 
-        public void _SortItems() => containerToDisplay.OrderItemsByNameDescending();
+        public void _SortItems() => containerToDisplay.OrderItemByRarity();
 
         public void _TranferAllItems() =>
             containerToDisplay.TransferEveryItemTo(otherOpenContainer);

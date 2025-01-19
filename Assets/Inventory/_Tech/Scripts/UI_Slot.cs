@@ -68,6 +68,7 @@ namespace Inventory
             }
 
             SetItem(itemToDisplay);
+            SetBackground(itemToDisplay.GetRarity().GetSlotVisuals());
             DisplayIcon();
         }
 
@@ -76,8 +77,10 @@ namespace Inventory
             slotHolder = holder;
         }
 
-        private void SetItem(Item itemToDisplay) => item = itemToDisplay;
+        public Item GetItem() => item;
 
+        private void SetItem(Item itemToDisplay) => item = itemToDisplay;
+        private void SetBackground(Sprite backgroundSprite) => backgroundImage.sprite = backgroundSprite;
         private void DisplayIcon() => iconImage.sprite = item.GetIcon();
         private void RecordBackgroundBaseColor() => baseColor = backgroundImage.color;
 

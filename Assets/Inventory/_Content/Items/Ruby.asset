@@ -10,10 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a26ffe4b4d11c814f9b504864622f94d, type: 3}
-  m_Name: Item 2
+  m_Name: Ruby
   m_EditorClassIdentifier: 
-  itemName: Diamond
-  icon: {fileID: 21300000, guid: 5b46c3b894d753e4393113da2b2dc4be, type: 3}
+  itemName: Ruby
+  icon: {fileID: 21300000, guid: 73fcb3e4fdb14ab479b715fdf1ae0c0a, type: 3}
+  rarity: {fileID: 11400000, guid: 5865b6528c2942641837681ee5e7cce6, type: 2}
   tags:
+  - {fileID: 11400000, guid: 5813007f0daef7b428dfd584952b524a, type: 2}
   - {fileID: 11400000, guid: 889fa44a42a4ba041a7c0fffdc843baa, type: 2}
-  description: This is precious.
+  - {fileID: 11400000, guid: cb314732a3ddb1e418537d830c33b07a, type: 2}
+  - {fileID: 11400000, guid: d658d3eff2b0c144d80ad646cd06b69a, type: 2}
+  description: This is red.

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a26ffe4b4d11c814f9b504864622f94d, type: 3}
+  m_Name: Iron ingot
+  m_EditorClassIdentifier: 
+  itemName: Iron ingot
+  icon: {fileID: 21300000, guid: bd57c99f04a6e824489e855610a5436c, type: 3}
+  rarity: {fileID: 11400000, guid: 63e169e3a615c4c4da0179c77febee55, type: 2}
+  tags: []
+  description: Made with iron ore and made in a blacksmith.

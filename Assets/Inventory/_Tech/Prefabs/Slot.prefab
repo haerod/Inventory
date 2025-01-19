@@ -142,7 +142,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0d97cc200332a744c844e56a6c1a94d7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f2fe6405309094f45b47fa29f7c638ed, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -163,6 +163,7 @@ GameObject:
   - component: {fileID: 8223399623752423768}
   - component: {fileID: 8223399623752423766}
   - component: {fileID: -2709714486695669861}
+  - component: {fileID: -7126761779576330304}
   m_Layer: 5
   m_Name: Slot
   m_TagString: Untagged
@@ -222,3 +223,17 @@ MonoBehaviour:
   iconImage: {fileID: 6265866988802110903}
   backgroundImage: {fileID: 4751150130543802881}
   slotHolder: {fileID: 0}
+--- !u!114 &-7126761779576330304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8223399623752423769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e6615bcfa29f5478a087a81cb2ec56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  header: 
+  content: 
