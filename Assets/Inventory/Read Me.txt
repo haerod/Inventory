@@ -1,0 +1,26 @@
+FEATURES
+--------
+
+- Create inventories
+- Transfer items from an inventory to another one
+- Inputs
+
+- Items sorting
+- Transfer items one by one or all
+- Tag system for items
+- Manager with util shortcuts
+
+QUICK PRESENTATION
+------------------
+
+- Folder _Content contains all plug and play items (don't need to touch to Tech folder if you doesn't want enter the code)
+	- It works if you drag and drop the prefab Inventory manager on the scene
+	- If you drag and drop Inputs, inputs will work too. Remember to link the events like in example scene
+
+- Scene presentation scene works well
+	- Press A to open two inventories (works with the object Test in hierarchy)
+
+- To create a new inventory, add the component Container on an object
+
+- To create a new item, go to Items folder and do Right click / Create / Inventory / New item
+	- You can create tags for the items in the same way (currently don't do nothing)
