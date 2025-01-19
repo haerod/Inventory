@@ -19,7 +19,6 @@ Affichage
 ---------
 
 - Cliquer sur le backgound pour désafficher
-- Scroll bar
 
 Stack
 -----
@@ -44,7 +43,6 @@ Tri
 SYSTEMES
 --------
 
-- Système de raretés
 - Coffre aléatoire
 - Système de craft
 
@@ -55,10 +53,6 @@ EQUIPEMENT D'UN PERSO
 - Event si rempli
 - Montrer sur le personnage
 - Highlight un emplacement d'équipement si on sélectionne un type qui fit (ex : highlight l'emplacement du casque si on sélectionne un casque)
-
-TOOLTIP
--------
-- En avoir un
 
 ==================================================================================
 
@@ -72,6 +66,7 @@ Affichage
 - Afficher deux coffres en parallèle
 - Inventory name
 - Bouton exit
+- Scroll bar
 
 Contenant
 - Ajouter / enlever un objet
@@ -89,6 +84,7 @@ Tri
 
 Item
 - Tags
+- Raretés
 
 Transfert
 - Raccourci (double clic)
@@ -97,3 +93,6 @@ Transfert
 Manager
 - raccourcis display inventaire
 - raccourci display 2 inventaires
+
+Tooltip
+- En avoir un

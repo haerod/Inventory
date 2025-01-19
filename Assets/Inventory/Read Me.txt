@@ -8,7 +8,9 @@ FEATURES
 - Items sorting
 - Transfer items one by one or all
 - Tag system for items
+- Rarity system for the items
 - Manager with util shortcuts
+- Tooltips
 
 QUICK PRESENTATION
 ------------------
@@ -16,6 +18,7 @@ QUICK PRESENTATION
 - Folder _Content contains all plug and play items (don't need to touch to Tech folder if you doesn't want enter the code)
 	- It works if you drag and drop the prefab Inventory manager on the scene
 	- If you drag and drop Inputs, inputs will work too. Remember to link the events like in example scene
+	- If you drag and drop Tooltips manager, it enables tooltips
 
 - Scene presentation scene works well
 	- Press A to open two inventories (works with the object Test in hierarchy)
@@ -23,4 +26,9 @@ QUICK PRESENTATION
 - To create a new inventory, add the component Container on an object
 
 - To create a new item, go to Items folder and do Right click / Create / Inventory / New item
-	- You can create tags for the items in the same way (currently don't do nothing)
+	- You can create tags and rarities for the items in the same way
+
+- To add a tooltip to an UI object, add a TooltipTrigger on this object
+	- Header is the title of the tooltip, it can be empty
+	- Content is the text displayed by the tooltip
+	- Slot automatically display their item's name and description in the tooltip
